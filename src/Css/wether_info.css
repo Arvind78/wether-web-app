@@ -1,0 +1,332 @@
+.wether-info-contenart {
+  padding: 10px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wether-data-conternar {
+  height: 23rem;
+  width: 100%;
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: azure;
+}
+.wether-date-time-conternar {
+  font-size: 30px;
+  height: 12rem;
+
+  width: 35%;
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  line-height: 4rem;
+  color: aqua;
+  border: 4px solid lightseagreen;
+  text-align: center;
+  border-radius: 5px;
+}
+.time {
+  font-size: 3rem;
+}
+.date {
+  font-size: 2.2rem;
+}
+.Update-info {
+  font-size: 20px;
+  color: black;
+}
+.wether-tempreture {
+  height: 15rem;
+  width: 40%;
+
+  border: 4px solid lightseagreen;
+  border-radius: 5px;
+  color: black;
+}
+.tempreture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wether-tempreture span {
+  font-size: 6rem;
+}
+sup {
+  font-size: 3.4rem;
+  margin-top: -20rem;
+}
+.humidity-cloud-value {
+  margin-top: 2rem;
+  height: 3rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+.humidity-cloud-value h3 {
+  font-size: 20px;
+}
+
+.symble {
+  font-size: 10px;
+  position: absolute;
+  margin-top: -50px;
+}
+
+.wether-tempreture-img {
+  height: 14rem;
+  width: 15%;
+  border: 4px solid lightseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.wether-tempreture-img img {
+  height: 70%;
+  width: 100%;
+}
+.wether-tempreture-img h3 {
+  margin-top: 2px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.wether-wind {
+  height: 3rem;
+  background-color: black;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+p {
+  font-size: 1.5rem;
+  color: antiquewhite;
+}
+@media screen and (max-width: 678px) {
+  .wether-info-contenart {
+    height: 100vh;
+    width: 100%;
+    padding: 35px 0px;
+  }
+
+  .wether-data-conternar {
+    height: 45rem;
+    width: 100%;
+    margin-top: -10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: azure;
+  }
+  .wether-date-time-conternar {
+    font-size: 30px;
+    height: 12rem;
+
+    width: 70%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    line-height: 4rem;
+    color: aqua;
+    text-align: center;
+    border: 4px solid lightseagreen;
+    border-radius: 5px;
+  }
+  .time {
+    font-size: 8rem;
+  }
+  .date {
+    font-size: 2rem;
+  }
+  .wether-tempreture {
+    height: 15rem;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    text-align: center;
+    border: 4px solid lightseagreen;
+    border-radius: 5px;
+    color: black;
+  }
+  .wether-tempreture span {
+    font-size: 5rem;
+  }
+  sup {
+    font-size: 3rem;
+    margin-top: rem;
+  }
+  .humidity-cloud-value {
+    margin-top: 20px;
+    height: 3rem;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  .humidity-cloud-value h3 {
+    font-size: 30px;
+  }
+
+  .symble {
+    font-size: 10px;
+    position: absolute;
+    margin-top: -50px;
+  }
+
+  .wether-tempreture-img {
+    height: 14rem;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid lightseagreen;
+    border-radius: 5px;
+  }
+  .wether-tempreture-img img {
+    height: 60%;
+    width: 50%;
+  }
+  .wether-tempreture-img h3 {
+    font-size: 1.5rem;
+  }
+
+  .wether-wind {
+    height: 3rem;
+    background-color: black;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  p {
+    font-size: 1.5rem;
+    color: antiquewhite;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .wether-info-contenart {
+    height: 100vh;
+    width: 100%;
+    padding: 35px 0px;
+  }
+
+  .wether-data-conternar {
+    height: 45rem;
+    width: 100%;
+    margin-top: -10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: azure;
+  }
+  .wether-date-time-conternar {
+    font-size: 30px;
+    height: 12rem;
+
+    width: 95%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    line-height: 4rem;
+    color: aqua;
+    border: 4px solid lightseagreen;
+    border-radius: 5px;
+  }
+  .time {
+    font-size: 4rem;
+  }
+  .date {
+    font-size: 2rem;
+  }
+  .wether-tempreture {
+    height: 18rem;
+    width: 95%;
+
+    border: 4px solid lightseagreen;
+    border-radius: 5px;
+    color: black;
+  }
+  .wether-tempreture span {
+    font-size: 5rem;
+  }
+
+  .humidity-cloud-value {
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+
+  .symble {
+    font-size: 10px;
+
+    margin-top: -50px;
+  }
+
+  .wether-tempreture-img {
+    height: 14rem;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid lightseagreen;
+    border-radius: 5px;
+  }
+  .wether-tempreture-img img {
+    height: 60%;
+    width: 100%;
+  }
+  .wether-tempreture-img h3 {
+    padding: 4px 0px;
+  }
+  .wether-tempreture-img h3 {
+    font-size: 1.3rem;
+  }
+
+  .wether-wind {
+    height: 3rem;
+    background-color: black;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  p {
+    font-size: 1rem;
+    color: antiquewhite;
+  }
+}

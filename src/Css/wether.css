@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-contenar {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+.weather-info-contenar {
+  height: 90%;
+  width: 90%;
+  background-color: #494240;
+  border-radius: 5px;
+}
+.heading-contenar {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  padding: 0rem 2rem;
+  background-color: #494240;
+}
+.logo {
+  font-size: 2rem;
+  color: antiquewhite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.seachbar form {
+  height: 2rem;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  padding: 0px 5px;
+  background-color: #fff;
+}
+.input {
+  width: 70%;
+  outline: none;
+  border: none;
+  padding: 4px 5px;
+}
+
+button[type='submit'] {
+  border: none;
+  outline: none;
+  background-color: aqua;
+  padding: 4px 15px;
+  border-radius: 30px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  transition: 450ms ease-in;
+  background-color: black;
+  color: #fff;
+}
+
+@media screen and (max-width: 678px) {
+  .weather-info-contenar {
+    height: 80%;
+    width: 90%;
+    background-color: beige;
+    border-radius: 5px;
+  }
+  .heading-contenar {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 0rem 2rem;
+    background-color: #494240;
+  }
+  .logo {
+    margin: 8px;
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .input {
+    width: 70%;
+    outline: none;
+    border: none;
+    padding: 4px 5px;
+  }
+
+  .seachbar form {
+    margin-top: 3px;
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding: 0px 5px;
+    background-color: #fff;
+
+    border: 2px solid lightgreen;
+  }
+}
