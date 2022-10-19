@@ -16,7 +16,7 @@ function Wether_info({ data }) {
           <div className="wether-tempreture">
             <div className="tempreture">
               <span>
-                {data.current?.temp_c || 35} <sup>0C</sup>
+                {data.current?.temp_c || 35}<sup>0C</sup>
               </span>
             </div>
             <div className="humidity-cloud-value">
