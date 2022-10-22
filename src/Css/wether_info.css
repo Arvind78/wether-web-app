@@ -113,7 +113,7 @@ p {
   font-size: 1.5rem;
   color: antiquewhite;
 }
-@media screen and (min-width: 678px) {
+@media screen and (max-width: 678px) {
   .wether-info-contenart {
     height: 100vh;
     width: 100%;
@@ -227,7 +227,7 @@ p {
   }
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 450px) {
   .wether-info-contenart {
     height: 100vh;
     width: 100%;
