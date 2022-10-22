@@ -16,7 +16,7 @@ function Wether_info({ data }) {
           <div className="wether-tempreture">
             <div className="tempreture">
               <span>
-                {data.current?.temp_c || 35}<sup>0C</sup>
+                {data.current?.temp_c || 30}<sup>0C</sup>
               </span>
             </div>
             <div className="humidity-cloud-value">
@@ -25,7 +25,7 @@ function Wether_info({ data }) {
             </div>
           </div>
           <div className="wether-tempreture-img">
-            <h3> City : {data.location?.name || 'New Delhi'}</h3>
+            <h3> City : {data.location?.name || 'Dummy city'}</h3>
             <img
               src={
                 data.current?.condition?.icon ||
